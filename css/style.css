@@ -71,38 +71,14 @@ html {
 
 /* Home Section */
 #home {
-    display: flex;
-    flex-direction: column;
-    padding: 3px 200px;
-    height: 550px;
-    justify-content: center;
-    align-items: center;
-    background: url('/img/bg1.jpg') no-repeat center center/cover;
-}
-
-#home::before {
-    content: "";
-    position: absolute;
-    background: url('/img/bg1.jpg') no-repeat center center/cover;
-    height: 642px;
-    top: 0px;
-    left: 0px;
     width: 100%;
-    z-index: -1;
-    opacity: 0.89;
+    height: 700px;
 }
 
-#home h1 {
-    color: black;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-}
-
-#home p {
-    color: black;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Bree Serif', serif;
+#home #img1{
+    width: 100%;
+    height: 100%;
+    
 }
 
 /* Services Section */
